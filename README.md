@@ -32,7 +32,11 @@ Every software has its flaws, but until they're fixed, I'm here to help rev up y
 ### 📦 Blender Isolated Mesh Rendering
 
 #### Setup & Usage
-Clone this repo to your desktop and run `npm install` to install all the dependencies.
+1. Ready your scene and camera
+2. Create collections for your meshes (rendering will be processed using the collections range identified in the script)
+3. Modify settings in the script for your need, change the rendering engine, set collections range in the array, enable or disable transparency
+4. Run the script
+
 ![Usage](https://github.com/fecitekme/eased-workflow/blob/main/repo/scripts_usage/Setup%20and%20Usage.gif?raw=true)
 
 ### 📦 Adobe Illustrator Translator
