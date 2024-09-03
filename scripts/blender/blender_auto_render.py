@@ -1,3 +1,9 @@
+"""
+Script by Arif Furkan Karaca
+Website: fecitekme.com | Email: arifkaraca@protonmail.com
+Thanks for using this script. Let's make your workflow smoother.
+"""
+
 import bpy
 
 # Set render settings
