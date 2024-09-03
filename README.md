@@ -60,9 +60,10 @@ Every software has its flaws, but until they're fixed, I'm here to help rev up y
 
 ## Built With
 
-Developed primarily using Python, this project leverages its versatility and power to streamline workflows and enhance productivity.
+Developed primarily using JavaScript and Python, this project leverages versatility and power to streamline workflows and enhance productivity.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square)
 
 ---
 
