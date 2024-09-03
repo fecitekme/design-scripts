@@ -43,6 +43,10 @@ Every software has its flaws, but until they're fixed, I'm here to help rev up y
 
 #### Setup & Usage
 
+
+
+![Usage](https://github.com/fecitekme/eased-workflow/blob/main/repo/scripts_usage/Setup%20and%20Usage2.gif?raw=true)
+
 ---
 
 ## Built With
