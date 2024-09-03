@@ -42,6 +42,15 @@ Every software has its flaws, but until they're fixed, I'm here to help rev up y
 ### 📦 Adobe Illustrator Translator
 
 #### Setup & Usage
+1. Extract scripts to CEP/extensions (or anwhere if you need one time use)
+2. In Illustrator go to File->Scripts->Other
+3. Locate your folder and run 'extract-text.jsx'
+4. Save your JSON file to the script folder as 'large_file.jsx'
+5. Open Command Prompt
+6. Change working directory to script folder's directory
+7. Type 'python translator.py' to run Python script, then enter your Google Cloud API and your target language code (e.g. es, en)
+8. Your translated file will be placed in script folder.
+9. In Illustrator, go to File->Scripts->Other and run 'import-text.jsx' in scripts folder. It will directly replace original text in your artboards.
 
 
 
