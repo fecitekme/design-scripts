@@ -62,8 +62,8 @@ Every software has its flaws, but until they're fixed, I'm here to help rev up y
 
 Developed primarily using JavaScript and Python, this project leverages versatility and power to streamline workflows and enhance productivity.
 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square)
 
 ---
 
