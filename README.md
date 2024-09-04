@@ -5,7 +5,7 @@ Eased Workflow
 
 This is a repository for easing the workflow of design software via scripting. 
 
-![Eased Workflow](https://github.com/fecitekme/eased-workflow/blob/main/repo/banner.png?raw=true)
+![Eased Workflow](https://github.com/fecitekme/eased-workflow/blob/main/repo/banner2.png?raw=true)
 
 # Table of Contents
 
