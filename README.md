@@ -37,7 +37,7 @@ Every software has its flaws, but until they're fixed, I'm here to help rev up y
 3. Modify settings in the script for your need, change the rendering engine, set collections range in the array, enable or disable transparency
 4. Run the script
 
-![Usage](https://github.com/fecitekme/eased-workflow/blob/main/repo/scripts_usage/Setup%20and%20Usage.gif?raw=true)
+<img src="https://github.com/fecitekme/eased-workflow/blob/main/repo/scripts_usage/Setup%20and%20Usage.gif?raw=true" width="600" alt="Usage">
 
 ### 📦 Adobe Illustrator Translator
 
@@ -52,9 +52,7 @@ Every software has its flaws, but until they're fixed, I'm here to help rev up y
 8. Your translated file will be placed in script folder.
 9. In Illustrator, go to File->Scripts->Other and run 'import-text.jsx' in scripts folder. It will directly replace original text in your artboards.
 
-
-
-![Usage](https://github.com/fecitekme/eased-workflow/blob/main/repo/scripts_usage/Setup%20and%20Usage2.gif?raw=true)
+<img src="https://github.com/fecitekme/eased-workflow/blob/main/repo/scripts_usage/it_usage.gif?raw=true" width="600" alt="Usage">
 
 ---
 
