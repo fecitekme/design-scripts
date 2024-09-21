@@ -8,6 +8,14 @@ import json
 import requests
 import os
 
+# Function to sanitize and remove invalid control characters
+def sanitize_json_string(json_string):
+    import re
+    # Regular expression to match invalid control characters (except valid ones like \n, \t, etc.)
+    invalid_chars = re.compile(r'[\x00-\x1f\x7f-\x9f]')
+    sanitized_string = invalid_chars.sub('', json_string)
+    return sanitized_string
+
 # Function to translate text using Google Cloud Translation API
 # Sends a request to the API and returns the translated text.
 def translate_text(text, target_language, api_key):
@@ -48,7 +56,14 @@ def split_text(text, max_length=1000):
 # Handles the entire process of reading, translating, and saving JSON content.
 def translate_json_file(input_path, output_path, target_language, api_key):
     with open(input_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
+        # Read raw content of the file first
+        raw_content = file.read()
+
+    # Sanitize the raw content to remove invalid control characters
+        sanitized_content = sanitize_json_string(raw_content)
+
+    # Now load the sanitized content into the JSON parser
+        data = json.loads(sanitized_content)
 
     translated_data = {}
     total_frames = len(data[list(data.keys())[0]])
